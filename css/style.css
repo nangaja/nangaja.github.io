@@ -1,3 +1,4 @@
+/********** common setting **********/
 .slider h3,
 .slider h5,
 .clients h3 {
@@ -14,11 +15,33 @@
 }
 
 .clients img {
-  max-width: 150px;
+  max-width: 200px;
+  max-height: 150px;
+  padding-top: 50px;
   filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.9));
 }
 
 section,
 Footer {
   padding: 20px 0;
+}
+
+/********** contact **********/
+#contact {
+  background-size: cover;
+}
+
+#contact ul li {
+  padding: 3px 0;
+}
+
+#contact form {
+  color: #00ffad;
+}
+
+#contact form input,
+#contact form textarea {
+  background: transparent;
+  border: 1px solid #00ffad;
+  color: #ffffff;
 }
